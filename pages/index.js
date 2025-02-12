@@ -1,8 +1,8 @@
 function Home() {
   return (
     <h1>
-      "A vida é como um jogo de xadrez: sempre existe uma próxima jogada.”
-      Fallout.{" "}
+      "Você não pode ver seu reflexo na água fervendo, assim como não pode ver a verdade em um estado de ira.
+      Quando a água acalma, tudo fica claro!."{" "}
     </h1>
   );
 }
