@@ -4,7 +4,10 @@
   "description": "clone do tabnews curso.dev",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "d": "npm run su && next dev",
+    "su": "docker compose -f infra/compose.yaml up -d",
+    "sp": "docker compose -f infra/compose.yaml stop",
+    "sd": "docker compose -f infra/compose.yaml down",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
